@@ -8,7 +8,7 @@ int main()
 	vector<Film> FilmBook;
 	ofstream out("Data.txt");
 	out.close();
-	thread t99([&]()//rewriting file every 30 seconds <- alternative of: äîáàâèòü ïîòîê êîòîðûé áóäåò çàïóñêàòüñÿ êàæäûå 30 ñåêóíä è ïðîâåðÿòü èçìåíåíèÿ â ôàéëå è åñëè ÷òî òî áûëî èçìåíåííî ñîõðàíÿòü ôàéë
+	thread t99([&]()//rewriting file every 30 seconds <- alternative of: Ã¤Ã®Ã¡Ã Ã¢Ã¨Ã²Ã¼ Ã¯Ã®Ã²Ã®Ãª ÃªÃ®Ã²Ã®Ã°Ã»Ã© Ã¡Ã³Ã¤Ã¥Ã² Ã§Ã Ã¯Ã³Ã±ÃªÃ Ã²Ã¼Ã±Ã¿ ÃªÃ Ã¦Ã¤Ã»Ã¥ 30 Ã±Ã¥ÃªÃ³Ã­Ã¤ Ã¨ Ã¯Ã°Ã®Ã¢Ã¥Ã°Ã¿Ã²Ã¼ Ã¨Ã§Ã¬Ã¥Ã­Ã¥Ã­Ã¨Ã¿ Ã¢ Ã´Ã Ã©Ã«Ã¥ Ã¨ Ã¥Ã±Ã«Ã¨ Ã·Ã²Ã® Ã²Ã® Ã¡Ã»Ã«Ã® Ã¨Ã§Ã¬Ã¥Ã­Ã¥Ã­Ã­Ã® Ã±Ã®ÃµÃ°Ã Ã­Ã¿Ã²Ã¼ Ã´Ã Ã©Ã«
 	{
 		while (true)
 		{
@@ -21,7 +21,7 @@ int main()
 	do
 	{
 		system("cls");
-		cout << "FilBook" << endl;
+		cout << "FilmBook" << endl;
 		cout << "1.Add Film" << endl;
 		cout << "2.Delete Film " << endl;
 		cout << "3.Edit Film" << endl;
